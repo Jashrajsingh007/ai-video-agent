@@ -1,0 +1,8 @@
+flask
+google-cloud-aiplatform
+vertexai
+python-dotenv
+firebase-admin
+google-cloud-firestore
+langchain-community==0.3.27
+wikipedia==1.4.0
