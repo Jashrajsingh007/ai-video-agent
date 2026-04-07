@@ -1,84 +1,58 @@
-\# 🎬 CreatorOS — Multi-Agent AI Video Production Suite
+# 🎬 CreatorOS — Multi-Agent AI Video Production Suite
 
+> Built for **Google Gen AI Academy APAC Hackathon 2026**
 
+[![Demo Video](https://img.shields.io/badge/Demo-YouTube-red?logo=youtube)](https://youtu.be/nReaghYM4UA)
+[![Live App](https://img.shields.io/badge/Live-Cloud%20Run-blue?logo=googlecloud)](YOUR_CLOUD_RUN_URL)
 
-An AI-powered video production assistant built with Google Gemini,
+---
 
-MCP (Model Context Protocol), and Cloud Run.
+## 🚀 What is CreatorOS?
 
+CreatorOS is a **multi-agent AI system** that automates the entire video production pipeline — from idea to render-ready output — using 6 specialized AI agents powered by **Google Gemini**.
 
+---
 
-\## ✨ Features
+## 🤖 The 6 Agents
 
-\- Multi-agent pipeline for AI video production
+| Agent | Role |
+|---|---|
+| 🎨 Composition Agent | Selects video style & structure |
+| 📊 Strategy Agent | Builds content strategy & audience targeting |
+| ✍️ Script Agent | Writes full scene-by-scene script |
+| 🎞️ Remotion Agent | Generates Remotion coding prompt (FPS, colors, components) |
+| ✅ Task Agent | Saves production task via MCP |
+| 📅 Calendar Agent | Schedules the event via MCP |
 
-\- Google Gemini powered intelligence
+---
 
-\- MCP server for tool orchestration
+## 🛠️ Tech Stack
 
-\- Deployed on Google Cloud Run
+- **Google Gemini** — AI backbone for all 6 agents
+- **MCP Tools** — Task & calendar management
+- **Google Firestore** — Real-time database
+- **Google Cloud Run** — Live deployment
+- **Next.js / React** — Frontend
 
+---
 
+## 📹 Demo
 
-\## 🚀 Setup
+[![Watch Demo](https://img.youtube.com/vi/nReaghYM4UA/0.jpg)](https://youtu.be/nReaghYM4UA)
 
+---
 
+## 🔧 Setup
 
-\### 1. Clone the repo
-
-git clone https://github.com/Jashrajsingh007/ai-video-agent.git
-
+```bash
+git clone https://github.com/Jashrajsingh007/ai-video-agent
 cd ai-video-agent
+npm install
+npm run dev
+```
 
+---
 
+## 👤 Author
 
-\### 2. Install dependencies
-
-pip install -r requirements.txt
-
-
-
-\### 3. Add your credentials
-
-Copy .env.example → .env and fill in your keys:
-
-\- GOOGLE\_API\_KEY → from aistudio.google.com
-
-\- GOOGLE\_APPLICATION\_CREDENTIALS → path to your serviceaccount.json
-
-&#x20; (download from Google Cloud Console → IAM → Service Accounts)
-
-
-
-\### 4. Run
-
-python app.py
-
-
-
-\## 🛠️ Tech Stack
-
-\- Python + FastAPI
-
-\- Google Gemini API
-
-\- MCP (Model Context Protocol)
-
-\- Google Cloud Run
-
-\- Firebase / Firestore
-
-
-
-\## ⚠️ Note
-
-Never commit .env or serviceaccount.json — see .env.example for
-
-required environment variables.
-
-
-
-\## 👤 Author
-
-Jashraj Singh
-
+**Jashraj Singh** — [GitHub](https://github.com/Jashrajsingh007)
